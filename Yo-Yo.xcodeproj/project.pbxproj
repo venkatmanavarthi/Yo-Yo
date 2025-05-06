@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E385F0B2DC99C5400D2A391 /* YoYoLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F0A2DC99C5400D2A391 /* YoYoLevel.swift */; };
+		6E385F0F2DC99D0C00D2A391 /* YoYoTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F0E2DC99D0C00D2A391 /* YoYoTestManager.swift */; };
 		6E385F142DC9A0AE00D2A391 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E385F132DC9A0A800D2A391 /* .gitignore */; };
+		6E385F392DC9A46000D2A391 /* Yo-Yo-Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E385F192DC9A45F00D2A391 /* Yo-Yo-Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E385F462DC9A56A00D2A391 /* YoYoTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F452DC9A55700D2A391 /* YoYoTestView.swift */; };
+		6E385F472DC9A6EA00D2A391 /* YoYoTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F0E2DC99D0C00D2A391 /* YoYoTestManager.swift */; };
+		6E385F482DC9A6F100D2A391 /* YoYoLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F0A2DC99C5400D2A391 /* YoYoLevel.swift */; };
+		6E385F492DC9A6F700D2A391 /* YoYoTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E385F452DC9A55700D2A391 /* YoYoTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,13 +32,54 @@
 			remoteGlobalIDString = 6E385EDC2DC99BF500D2A391;
 			remoteInfo = "Yo-Yo";
 		};
+		6E385F262DC9A46000D2A391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E385ED52DC99BF500D2A391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E385F182DC9A45F00D2A391;
+			remoteInfo = "Yo-Yo-Watch Watch App";
+		};
+		6E385F302DC9A46000D2A391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E385ED52DC99BF500D2A391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E385F182DC9A45F00D2A391;
+			remoteInfo = "Yo-Yo-Watch Watch App";
+		};
+		6E385F372DC9A46000D2A391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E385ED52DC99BF500D2A391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E385F182DC9A45F00D2A391;
+			remoteInfo = "Yo-Yo-Watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E385F3D2DC9A46000D2A391 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6E385F392DC9A46000D2A391 /* Yo-Yo-Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E385EDD2DC99BF500D2A391 /* Yo-Yo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yo-Yo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E385EEB2DC99BF600D2A391 /* Yo-YoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo-YoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E385EF52DC99BF600D2A391 /* Yo-YoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo-YoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E385F0A2DC99C5400D2A391 /* YoYoLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoYoLevel.swift; sourceTree = "<group>"; };
+		6E385F0E2DC99D0C00D2A391 /* YoYoTestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoYoTestManager.swift; sourceTree = "<group>"; };
 		6E385F132DC9A0A800D2A391 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6E385F192DC9A45F00D2A391 /* Yo-Yo-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yo-Yo-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E385F252DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo-Yo-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E385F2F2DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo-Yo-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E385F452DC9A55700D2A391 /* YoYoTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoYoTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,6 +96,21 @@
 		6E385EF82DC99BF600D2A391 /* Yo-YoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Yo-YoUITests";
+			sourceTree = "<group>";
+		};
+		6E385F1A2DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yo-Yo-Watch Watch App";
+			sourceTree = "<group>";
+		};
+		6E385F282DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yo-Yo-Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6E385F322DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Yo-Yo-Watch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -74,16 +137,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E385F162DC9A45F00D2A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F222DC9A46000D2A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F2C2DC9A46000D2A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6E385ED42DC99BF500D2A391 = {
 			isa = PBXGroup;
 			children = (
+				6E385F442DC9A4E300D2A391 /* Shared */,
 				6E385F132DC9A0A800D2A391 /* .gitignore */,
 				6E385EDF2DC99BF500D2A391 /* Yo-Yo */,
 				6E385EEE2DC99BF600D2A391 /* Yo-YoTests */,
 				6E385EF82DC99BF600D2A391 /* Yo-YoUITests */,
+				6E385F1A2DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */,
+				6E385F282DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests */,
+				6E385F322DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests */,
 				6E385EDE2DC99BF500D2A391 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +182,21 @@
 				6E385EDD2DC99BF500D2A391 /* Yo-Yo.app */,
 				6E385EEB2DC99BF600D2A391 /* Yo-YoTests.xctest */,
 				6E385EF52DC99BF600D2A391 /* Yo-YoUITests.xctest */,
+				6E385F192DC9A45F00D2A391 /* Yo-Yo-Watch Watch App.app */,
+				6E385F252DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests.xctest */,
+				6E385F2F2DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6E385F442DC9A4E300D2A391 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6E385F452DC9A55700D2A391 /* YoYoTestView.swift */,
+				6E385F0A2DC99C5400D2A391 /* YoYoLevel.swift */,
+				6E385F0E2DC99D0C00D2A391 /* YoYoTestManager.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,10 +209,12 @@
 				6E385ED92DC99BF500D2A391 /* Sources */,
 				6E385EDA2DC99BF500D2A391 /* Frameworks */,
 				6E385EDB2DC99BF500D2A391 /* Resources */,
+				6E385F3D2DC9A46000D2A391 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E385F382DC9A46000D2A391 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				6E385EDF2DC99BF500D2A391 /* Yo-Yo */,
@@ -169,6 +272,74 @@
 			productReference = 6E385EF52DC99BF600D2A391 /* Yo-YoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6E385F182DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E385F3A2DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch App" */;
+			buildPhases = (
+				6E385F152DC9A45F00D2A391 /* Sources */,
+				6E385F162DC9A45F00D2A391 /* Frameworks */,
+				6E385F172DC9A45F00D2A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E385F1A2DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */,
+			);
+			name = "Yo-Yo-Watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Yo-Yo-Watch Watch App";
+			productReference = 6E385F192DC9A45F00D2A391 /* Yo-Yo-Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E385F242DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E385F3E2DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch AppTests" */;
+			buildPhases = (
+				6E385F212DC9A46000D2A391 /* Sources */,
+				6E385F222DC9A46000D2A391 /* Frameworks */,
+				6E385F232DC9A46000D2A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E385F272DC9A46000D2A391 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E385F282DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests */,
+			);
+			name = "Yo-Yo-Watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Yo-Yo-Watch Watch AppTests";
+			productReference = 6E385F252DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E385F2E2DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E385F412DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch AppUITests" */;
+			buildPhases = (
+				6E385F2B2DC9A46000D2A391 /* Sources */,
+				6E385F2C2DC9A46000D2A391 /* Frameworks */,
+				6E385F2D2DC9A46000D2A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E385F312DC9A46000D2A391 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E385F322DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests */,
+			);
+			name = "Yo-Yo-Watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Yo-Yo-Watch Watch AppUITests";
+			productReference = 6E385F2F2DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +361,17 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 6E385EDC2DC99BF500D2A391;
 					};
+					6E385F182DC9A45F00D2A391 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					6E385F242DC9A46000D2A391 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6E385F182DC9A45F00D2A391;
+					};
+					6E385F2E2DC9A46000D2A391 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6E385F182DC9A45F00D2A391;
+					};
 				};
 			};
 			buildConfigurationList = 6E385ED82DC99BF500D2A391 /* Build configuration list for PBXProject "Yo-Yo" */;
@@ -209,6 +391,9 @@
 				6E385EDC2DC99BF500D2A391 /* Yo-Yo */,
 				6E385EEA2DC99BF600D2A391 /* Yo-YoTests */,
 				6E385EF42DC99BF600D2A391 /* Yo-YoUITests */,
+				6E385F182DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */,
+				6E385F242DC9A46000D2A391 /* Yo-Yo-Watch Watch AppTests */,
+				6E385F2E2DC9A46000D2A391 /* Yo-Yo-Watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +421,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E385F172DC9A45F00D2A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F232DC9A46000D2A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F2D2DC9A46000D2A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,6 +449,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E385F462DC9A56A00D2A391 /* YoYoTestView.swift in Sources */,
+				6E385F0B2DC99C5400D2A391 /* YoYoLevel.swift in Sources */,
+				6E385F0F2DC99D0C00D2A391 /* YoYoTestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +463,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6E385EF12DC99BF600D2A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F152DC9A45F00D2A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E385F492DC9A6F700D2A391 /* YoYoTestView.swift in Sources */,
+				6E385F472DC9A6EA00D2A391 /* YoYoTestManager.swift in Sources */,
+				6E385F482DC9A6F100D2A391 /* YoYoLevel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F212DC9A46000D2A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E385F2B2DC9A46000D2A391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,6 +505,21 @@
 			isa = PBXTargetDependency;
 			target = 6E385EDC2DC99BF500D2A391 /* Yo-Yo */;
 			targetProxy = 6E385EF62DC99BF600D2A391 /* PBXContainerItemProxy */;
+		};
+		6E385F272DC9A46000D2A391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E385F182DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */;
+			targetProxy = 6E385F262DC9A46000D2A391 /* PBXContainerItemProxy */;
+		};
+		6E385F312DC9A46000D2A391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E385F182DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */;
+			targetProxy = 6E385F302DC9A46000D2A391 /* PBXContainerItemProxy */;
+		};
+		6E385F382DC9A46000D2A391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E385F182DC9A45F00D2A391 /* Yo-Yo-Watch Watch App */;
+			targetProxy = 6E385F372DC9A46000D2A391 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,6 +646,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Yo-Yo/Yo_Yo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -436,6 +685,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Yo-Yo/Yo_Yo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -552,6 +802,145 @@
 			};
 			name = Release;
 		};
+		6E385F3B2DC9A46000D2A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yo-Yo-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.venkatmanav.Yo-Yo";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		6E385F3C2DC9A46000D2A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yo-Yo-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.venkatmanav.Yo-Yo";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		6E385F3F2DC9A46000D2A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yo-Yo-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yo-Yo-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		6E385F402DC9A46000D2A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yo-Yo-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yo-Yo-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		6E385F422DC9A46000D2A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Yo-Yo-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		6E385F432DC9A46000D2A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSVZK89T7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venkatmanav.Yo-Yo-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Yo-Yo-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,6 +976,33 @@
 			buildConfigurations = (
 				6E385F062DC99BF600D2A391 /* Debug */,
 				6E385F072DC99BF600D2A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E385F3A2DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E385F3B2DC9A46000D2A391 /* Debug */,
+				6E385F3C2DC9A46000D2A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E385F3E2DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E385F3F2DC9A46000D2A391 /* Debug */,
+				6E385F402DC9A46000D2A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E385F412DC9A46000D2A391 /* Build configuration list for PBXNativeTarget "Yo-Yo-Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E385F422DC9A46000D2A391 /* Debug */,
+				6E385F432DC9A46000D2A391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
