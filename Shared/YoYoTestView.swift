@@ -108,10 +108,9 @@ struct YoYoTestView: View {
             Text(title)
                 .font(isWatch ? .system(size: 14, weight: .bold) : .system(size: 18, weight: .bold))
                 .foregroundColor(.white)
-                .frame(width: isWatch ? 60 : 100, height: isWatch ? 30 : 44)
+                .frame(width: isWatch ? 50 : 100, height: isWatch ? 30 : 44)
                 .background(color)
                 .cornerRadius(10)
         }
-        .frame(maxWidth: .infinity)
     }
 }
