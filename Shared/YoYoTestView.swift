@@ -20,16 +20,14 @@ struct YoYoTestView: View {
     }
 
     var body: some View {
-        VStack(spacing: isWatch ? 10 : 20) {
+        VStack(spacing: isWatch ? 5 : 20) {
             levelShuttleView
             timerCircle
             statusText
             controlButtons
         }
-        .frame(maxWidth: isWatch ? 200 : .infinity, maxHeight: .infinity)
-        .background(isWatch ? Color.black.opacity(0.1) : Color.white)
-        .cornerRadius(isWatch ? 16 : 0)
-        .padding(isWatch ? 10 : 20)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(isWatch ? 0 : 20)
     }
 
     private var levelShuttleView: some View {
@@ -65,7 +63,7 @@ struct YoYoTestView: View {
             Text(timeString())
                 .font(isWatch ? .system(size: 18, weight: .bold, design: .monospaced) : .system(size: 28, weight: .bold))
         }
-        .frame(width: isWatch ? 100 : 200, height: isWatch ? 100 : 200)  // Smaller circle on Watch
+        .frame(width: isWatch ? 80 : 200, height: isWatch ? 80 : 200)  // Smaller circle on Watch
     }
     
     private var statusText: some View {
@@ -75,7 +73,7 @@ struct YoYoTestView: View {
     }
     
     private var controlButtons: some View {
-        HStack(spacing: isWatch ? 10 : 20) {
+        HStack(spacing: isWatch ? .none : 20) {
             if !manager.isRunning {
                 actionButton(title: "Start", color: .green) {
                     manager.startTest()
@@ -90,7 +88,7 @@ struct YoYoTestView: View {
                 }
             }
         }
-        .padding(isWatch ? 5 : 20)
+        .padding(isWatch ? 0 : 20)
     }
     
     private func timeString() -> String {
@@ -106,11 +104,16 @@ struct YoYoTestView: View {
     private func actionButton(title: String, color: Color, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Text(title)
-                .font(isWatch ? .system(size: 14, weight: .bold) : .system(size: 18, weight: .bold))
+                .font(isWatch ? .system(size: 9, weight: .bold) : .system(size: 18, weight: .bold))
                 .foregroundColor(.white)
                 .frame(width: isWatch ? 50 : 100, height: isWatch ? 30 : 44)
                 .background(color)
-                .cornerRadius(10)
+                .cornerRadius(5)
         }
+        .buttonStyle(.plain)
     }
+}
+
+#Preview {
+    YoYoTestView()
 }

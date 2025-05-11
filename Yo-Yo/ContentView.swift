@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        YoYoTestView()  // reusing the shared view
+        MainTabView()  // reusing the shared view
     }
 }
 
